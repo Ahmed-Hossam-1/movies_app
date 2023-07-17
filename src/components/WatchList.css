@@ -1,0 +1,34 @@
+.watch-list {
+  padding: 30px 0;
+}
+.watch-list .main-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.movie-count {
+  display: block;
+  background-color: var(--secoundary);
+  color: var(--primary);
+  padding: 5px 15px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 999px;
+}
+.watch-list h1 {
+  color: var(--primary);
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+}
+.watch-list .no-movies {
+  color: #c4c4c4;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
